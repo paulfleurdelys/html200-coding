@@ -1,27 +1,11 @@
 let x = 10;
-let y = 5;
+let x = 2;
+let y = 4;
+let z = 10;
+let a = -5;
 
-add(x, y);
-subtract(x, y);
-multiply(x, y);
-divide(x, y);
-
-function add(x, y) {
-    console.log(x + y);
-    //15
-}
-
-function subtract(x, y) {
-    console.log(x-y);
-    //5
-}
-
-function multiply(x, y) {
-    console.log(x * y);
-    //50
-}
-
-function divide(x, y) {
-    console.log(x / y);
-    //2
-}
+console.log("Addition, " + x + " plus " + y + " is equal to " + (x + y));
+console.log("Subtraction, " + y + " minus " + z + " is equal to " + (y - z));
+console.log("Multiplication, " + z + " times " + a + " is equal to " + (z * a));
+console.log("Division, " + x + " divided by " + y + " is equal to " + (x / y));
+console.log("Mod, " + z + " remainder " + y + " is equal to " + (z % y));
