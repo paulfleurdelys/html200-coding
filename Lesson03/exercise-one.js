@@ -1,0 +1,11 @@
+let list = ['apple', 'banana', 'carrot', 'daikon', 'eggplant'];
+console.log('Initial array created');
+console.log(list);
+list.push('fruit');
+console.log('New element ' + list[list.length -1] + " added to end of array.");
+console.log(list);
+console.log('Third element '+ list[2] + ' removed from array.');
+list.splice(2, 1);
+console.log(list);
+console.log('String representation of array follows.');
+console.log(list.toString());
